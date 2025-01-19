@@ -4,3 +4,168 @@
     box-sizing: border-box;
 }
 
+.mainWrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    background: #E7EEFF;
+    height: 100vh;
+    min-height: 1715px;
+    width: 104px;
+}
+
+/* sidebar */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.icon_map {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.logo {
+    border-bottom: 1px solid #002B81;
+}
+
+/* mainnnnnnnnnnnnnnn */
+
+.hover {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+header {
+    background: #E7EEFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.serch_box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: center;
+}
+
+.search_button {
+    border: 0;
+    background-color: #E7EEFF;
+}
+
+.serch {
+    border: 0;
+    background-color: #E7EEFF;
+}
+
+.serch::placeholder {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.acaunt_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.acaunt_span {
+    color: #5e6577;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* mainnnnnnnn */
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero {
+    max-width: 1144px;
+    width: 100%;
+    gap: 42px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location_conteiner {
+    display: flex;
+    justify-content: flex-end;
+    width: 1144px;
+    gap: 30px;
+}
+
+.location_box {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.location_box {
+    background: #E7EEFF;
+    border-radius: 16px;
+    width: 150px;
+    justify-content: center;
+    padding: 10px;
+    height: 44px;
+}
+
+.kurort_box {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    width: 1144px;
+    align-items: center;
+}
+
+.vila_box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-color: #E7EEFF;
+    border-radius: 24px;
+}
+
+.hom_span {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.home_p {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.house_info {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+}
